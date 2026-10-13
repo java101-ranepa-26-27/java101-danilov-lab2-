@@ -44,7 +44,7 @@ public class Student {
         result = result + "Статус: " + status();
         return result;
     }
-
+//
     public void printReport() {
         System.out.println(report());
     }

@@ -11,7 +11,7 @@ public class Main {
         for (int grade = scanner.nextInt(); grade != 0; grade = scanner.nextInt()) {
             student.addGrade(grade);
         }
-//
+//.
         student.printReport();
     }
 }
