@@ -13,7 +13,6 @@ public class Student {
         grades.add(grade);
     }
     public double average() {
-        // если оценок нет, возвращаем 0, чтобы не делить на ноль
         if (grades.size() == 0) {
             return 0;
         }
